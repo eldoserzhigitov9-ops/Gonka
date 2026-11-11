@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="kk"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Жарыс: сұрақ-жауап</title>
+<meta name="description" content="Жарыс: сұрақ-жауап — квиз-гонка для двух игроков. Вопросы учителей хранятся в облаке.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%81%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div id="menu"><section class="side" id="s0"></section>
+<section class="mid"><h2 id="hT"></h2><div id="tracks" style="display:contents"></div><h2 id="hL"></h2><div class="lens" id="lens"></div><button class="tqb" id="setBtn"></button><button class="tqb" id="tqBtn"></button><button class="go" id="goBtn"></button></section>
+<section class="side" id="s1"></section></div>
+<div id="game"></div>
+<div id="tq"></div>
+<div id="bar"><button id="bL" aria-label="Тіл / Язык"></button><button id="bH" aria-label="Мәзір" style="display:none">🏠</button><button id="bS" aria-label="Дыбыс">🔊</button><button id="bM" aria-label="Музыка">🎵</button></div>
+<div id="end"><h1 id="winTxt"></h1><div id="winCar"></div><p id="score"></p><button class="go" id="againBtn">Қайта ойнау</button><button class="ghost" id="menuBtn">Мәзірге оралу</button></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="js/config.js"></script>
+<script src="js/game.js"></script>
+<script src="js/teacher.js"></script>
+</body></html>
